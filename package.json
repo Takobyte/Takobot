@@ -2,14 +2,21 @@
   "name": "Takobot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./src/index.js"
   },
   "author": "Jung Wook So",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "@types/es6-promise": "^3.3.0",
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.111",
+    "@types/node": "^10.5.2"
   }
 }
